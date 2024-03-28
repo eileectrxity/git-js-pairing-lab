@@ -45,8 +45,6 @@ console.log(multiply(2, 4))     //returns 8
 console.log(multiply(10, -5))  //returns -50
 console.log(multiply(3, 7.5))   //returns 22.5
 
-
-
 // Question 7:
 const isNegative = (num) => {
     if (num<0){
@@ -58,14 +56,6 @@ const isNegative = (num) => {
 // console.log(isNegative(3))         //returns false
 // console.log(isNegative(-2))        //returns true
 // console.log(isNegative(Math.PI))   //returns false
-
-// Question 8: a function triangleArea that takes in the height and base of a triangle and returns the area of the triangle.
-const triangleArea = (height, base) => {
-    return height * base /2
-}
-
-// console.log(triangleArea(5, 7))    //returns 17.5
-// console.log(triangleArea(6, 8))    //returns 24
 
 // Quesion 9
 
