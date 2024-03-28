@@ -1,11 +1,10 @@
-// Question 1: a function that logs all numbers from 5 to 100
-const fiveToOneHundred = () => {
-    for (let i = 5; i <= 100; i++) {
-        console.log(i);
-    };
-};
-
-fiveToOneHundred()
+// Question 1:
+const fiveToOneHundred = () =>{
+    for(let i = 5; i<=100; i++){
+        console.log(i)
+    }
+}
+// fiveToOneHundred();
 
 //Question 2: a function that logs all positive numbers to 100 that is a multiple of 3
 const multiplesOfThree = () => {
@@ -16,7 +15,17 @@ const multiplesOfThree = () => {
     };
 };
 
-multiplesOfThree();
+// multiplesOfThree();
+
+// Question 3:
+const multiplesOfThreeOrFive=()=>{
+    for(let i=1; i<101; i++){
+        if (i%3 == 0 || i%5==0){
+            console.log(i)
+        }
+    }
+}
+// multiplesOfThreeOrFive();
 
 // Question 4: a function that takes in an integer parameter and logs all numbers from 1 to that number
 const untilNum = (num) => {
@@ -25,4 +34,4 @@ const untilNum = (num) => {
     };
 };
 
-untilNum(30)
+// untilNum(30)
