@@ -1,1 +1,1 @@
-//Code your solutions in this file
+//Git JS Pairing Lab - Even Questions Branch by Eileen
