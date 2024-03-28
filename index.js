@@ -49,6 +49,10 @@ const multiply = (num1, num2) => {
 // console.log(multiply(10, -5))  //returns -50
 // console.log(multiply(3, 7.5))   //returns 22.5
 
+console.log(multiply(2, 4))     //returns 8
+console.log(multiply(10, -5))  //returns -50
+console.log(multiply(3, 7.5))   //returns 22.5
+
 // Question 6: a function add that takes in two number parameters and returns their sum; if the two values are the same, return triple their sum
 const add = (num1, num2) => {
     if (num1 === num2) {
@@ -64,6 +68,18 @@ const add = (num1, num2) => {
 // console.log(add(5, 5))   //returns 30 because the sum of 5 + 5 = 10 and 30 is triple that
 // console.log(add(6, 6))   //returns 36 because the sum of 6 + 6 = 12 and 36 is triple that
 
+// Question 7:
+const isNegative = (num) => {
+    if (num<0){
+        return true;
+    }else{
+        return false;
+    }
+}
+// console.log(isNegative(3))         //returns false
+// console.log(isNegative(-2))        //returns true
+// console.log(isNegative(Math.PI))   //returns false
+
 // Question 8: a function that takes in the height and base of a triangle and returns the area of the triangle
 const triangleArea = (height, base) => {
     return height * base / 2;
@@ -71,6 +87,16 @@ const triangleArea = (height, base) => {
 
 // console.log(triangleArea(5, 7)) //returns 17.5
 // console.log(triangleArea(6, 8)) //returns 24
+
+// Quesion 9
+const betweenTwentyAndFourty = (num) => {
+    return (num > 20 && num < 40) ? true: false;
+};
+
+console.log(betweenTwentyAndFourty(20))   //return false
+console.log(betweenTwentyAndFourty(21))   //return true
+console.log(betweenTwentyAndFourty(39))   //return true
+console.log(betweenTwentyAndFourty(40))   //return false
 
 // Question 10: a function that takes in three number parameters and returns the largest of the values
 const largest = (num1, num2, num3) => {
